@@ -1,20 +1,23 @@
 {
-  "users": [
-    {
-      "id": "1",
-      "name": "Hotel Mawar",
-      "email": "clarasistaa26@gmail.com",
-      "phoneNum": "123",
-      "password": "password123"
-    },
-    {
-      "id": "2",
-      "name": "Sita Dewi",
-      "email": "sita@example.com",
-      "phoneNum": "08987654321",
-      "password": "password123"
-    }
-  ],
+  "users":[
+  {
+    "id": "1",
+    "name": "Hotel Mawar",
+    "email": "clarasistaa26@gmail.com",
+    "phoneNum": "123",
+    "password": "password123",
+    "points": 0
+  },
+  {
+    "id": "2",
+    "name": "Sita Dewi",
+    "email": "sita@example.com",
+    "phoneNum": "08987654321",
+    "password": "password123",
+    "points": 0
+  }
+]
+,
   "hotels": [
     {
       "id": "1",
@@ -22,9 +25,9 @@
       "location": "Jakarta"
     },
     {
-      "id": "2",
-      "name": "Hotel Melati",
-      "location": "Bandung"
+      "id": "d2911b0c-7aa5-485e-9a84-b1dbbc038356",
+      "name": "Hotel Hai",
+      "location": "Jakarta"
     },
     {
       "id": "3",
@@ -35,11 +38,11 @@
   "rooms": [
     {
       "id": 1,
-      "hotelId": "1",
+      "hotelId": "d2911b0c-7aa5-485e-9a84-b1dbbc038356",
       "type": "Standard",
-      "price": 300000,
+      "price": 200000,
       "isAvailable": true,
-      "number": 101
+      "number": 112
     },
     {
       "id": 2,
